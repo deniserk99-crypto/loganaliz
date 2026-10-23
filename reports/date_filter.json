@@ -1,0 +1,19 @@
+{
+  "valid_lines": 1200,
+  "invalid_lines": 9,
+  "events_after_filter": 0,
+  "by_level": {},
+  "by_source": {},
+  "top_error_codes": [],
+  "invalid_details": [
+    "Line 36: timestamp must be ISO 8601 UTC ending in Z",
+    "Line 161: unsupported level: NOTICE",
+    "Line 281: fields must not be empty",
+    "Line 411: timestamp must be ISO 8601 UTC ending in Z",
+    "Line 551: expected exactly 5 fields separated by '|'",
+    "Line 691: expected exactly 5 fields separated by '|'",
+    "Line 831: fields must not be empty",
+    "Line 971: fields must not be empty",
+    "Line 1111: empty line"
+  ]
+}

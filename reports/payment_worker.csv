@@ -1,0 +1,20 @@
+section,key,value
+summary,valid_lines,1200
+summary,invalid_lines,9
+summary,events_after_filter,234
+by_level,DEBUG,16
+by_level,ERROR,180
+by_level,INFO,33
+by_level,WARN,5
+by_source,payment-worker,234
+top_error_codes,PAYMENT_TIMEOUT,97
+top_error_codes,PAYMENT_DECLINED,83
+invalid_details,line,Line 36: timestamp must be ISO 8601 UTC ending in Z
+invalid_details,line,Line 161: unsupported level: NOTICE
+invalid_details,line,Line 281: fields must not be empty
+invalid_details,line,Line 411: timestamp must be ISO 8601 UTC ending in Z
+invalid_details,line,Line 551: expected exactly 5 fields separated by '|'
+invalid_details,line,Line 691: expected exactly 5 fields separated by '|'
+invalid_details,line,Line 831: fields must not be empty
+invalid_details,line,Line 971: fields must not be empty
+invalid_details,line,Line 1111: empty line

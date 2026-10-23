@@ -1,0 +1,68 @@
+{
+  "valid_lines": 1200,
+  "invalid_lines": 9,
+  "events_after_filter": 475,
+  "by_level": {
+    "ERROR": 475
+  },
+  "by_source": {
+    "auth-api": 37,
+    "gateway": 86,
+    "inventory-api": 52,
+    "orders-api": 120,
+    "payment-worker": 180
+  },
+  "top_error_codes": [
+    {
+      "event_code": "PAYMENT_TIMEOUT",
+      "count": 97
+    },
+    {
+      "event_code": "ORDER_REJECTED",
+      "count": 88
+    },
+    {
+      "event_code": "HTTP_502",
+      "count": 86
+    },
+    {
+      "event_code": "PAYMENT_DECLINED",
+      "count": 83
+    },
+    {
+      "event_code": "STOCK_LOW",
+      "count": 24
+    },
+    {
+      "event_code": "ORDER_CREATED",
+      "count": 22
+    },
+    {
+      "event_code": "DB_RETRY",
+      "count": 21
+    },
+    {
+      "event_code": "AUTH_TOKEN_EXPIRED",
+      "count": 20
+    },
+    {
+      "event_code": "AUTH_LOGIN_OK",
+      "count": 17
+    },
+    {
+      "event_code": "STOCK_RESERVED",
+      "count": 17
+    }
+  ],
+  "invalid_details": [
+    "Line 36: timestamp must be ISO 8601 UTC ending in Z",
+    "Line 161: unsupported level: NOTICE",
+    "Line 281: fields must not be empty",
+    "Line 411: timestamp must be ISO 8601 UTC ending in Z",
+    "Line 551: expected exactly 5 fields separated by '|'",
+    "Line 691: expected exactly 5 fields separated by '|'",
+    "Line 831: fields must not be empty",
+    "Line 971: fields must not be empty",
+    "Line 1111: empty line"
+  ]
+}
